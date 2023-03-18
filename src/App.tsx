@@ -10,10 +10,12 @@ function App() {
     return (
         <>
             <NavBar />
-            <Routes>
-                <Route path={"/"} element={<Home />}>
-                </Route>
-            </Routes>
+            <main className={"page-content"}>
+                <Routes>
+                    <Route path={"/"} element={<Home />}>
+                    </Route>
+                </Routes>
+            </main>
         </>
     );
 }
