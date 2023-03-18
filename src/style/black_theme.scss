@@ -1,0 +1,11 @@
+:root {
+  --background-color: #282C2E;
+  --color: #d5d5d5;
+  --headline: #dfdfdf;
+
+  --card-background: #242729;
+
+  --black-elements-colors: 0, 0, 0;
+  --lines: rgba(var(--black-elements-colors), .49);
+  --shadow: rgba(var(--black-elements-colors), .25);
+}
