@@ -1,0 +1,13 @@
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-color: #dfdfdf;
+    --color: #131e28;
+    --headline: #242729;
+
+    --card-background: #c5c5c5;
+
+    --black-elements-colors: 255, 255, 255;
+    --lines: rgba(var(--black-elements-colors), .49);
+    --shadow: rgba(var(--black-elements-colors), .25);
+  }
+}

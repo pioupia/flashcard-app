@@ -1,3 +1,5 @@
+import "./navbar.scss";
+
 export default function NavBarVue() {
     return (
         <>
