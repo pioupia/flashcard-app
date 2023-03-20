@@ -1,13 +1,18 @@
 @media (prefers-color-scheme: light) {
   :root {
-    --background-color: #dfdfdf;
-    --color: #131e28;
-    --headline: #242729;
+    --background-color: #F3F5F6;
+    --color: #161B1D;
+    --headline: #161B1D;
 
-    --card-background: #c5c5c5;
+    --card-background: #F3F5F6;
 
-    --black-elements-colors: 255, 255, 255;
+    --black-elements-colors: 0, 0, 0;
     --lines: rgba(var(--black-elements-colors), .49);
     --shadow: rgba(var(--black-elements-colors), .25);
+  }
+
+  .navbar-left {
+    box-shadow: none;
+    border-right: 1px solid var(--lines);
   }
 }
