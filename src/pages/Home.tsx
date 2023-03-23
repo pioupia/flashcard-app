@@ -40,7 +40,7 @@ function Home() {
 
             <h4>Why these data are stored?</h4>
             <p>If this data is not stored, you will lose all your work every time you leave the website. Therefore, we have to store it.</p>
-            <p>When you use this website, you agree that the data specified above will be saved in your browser</p>
+            <p>When you use this website, you agree that the data specified above will be saved in your browser.</p>
         </>
     )
 }
