@@ -39,6 +39,17 @@ a {
   padding: 2rem 2rem .5rem;
 }
 
+.inline-code {
+  padding: 0.2rem 0.6rem;
+  margin-left: .4rem;
+  margin-right: 0.4rem;
+
+  border-radius: 4px;
+  background-color: var(--card-background);
+
+  box-shadow: 2px 2px 2px var(--shadow);
+}
+
 @media screen and (max-width: 1050px) {
   .page-content {
     margin-left: 0;
