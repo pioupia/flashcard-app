@@ -45,9 +45,10 @@ a {
   margin-right: 0.4rem;
 
   border-radius: 4px;
-  background-color: var(--card-background);
+  background-color: var(--code-element-bg);
+  color: var(--code-element-textColor);
 
-  box-shadow: 2px 2px 2px var(--shadow);
+  box-shadow: 2px 2px 2px var(--code-element-shadow-color);
 }
 
 @media screen and (max-width: 1050px) {
